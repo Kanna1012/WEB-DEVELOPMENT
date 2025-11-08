@@ -8,7 +8,7 @@ html{
 }
 .HOME{
     position: relative;
-    height: 98vh;
+    height: 97vh;
 }
 /* NAVIGATION */
 nav{
@@ -19,7 +19,7 @@ nav{
     align-items: center;
     padding: 0 0 0 1em;
 }
-ul{
+nav ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -33,7 +33,7 @@ nav img{
     height: 60px;
     margin-left: 1.5em;
 }
-a{
+ul a{
     color: white;
     text-decoration: none;
     transition: all 200ms;
@@ -59,4 +59,18 @@ main{
     overflow: hidden;
     /* border: 1px solid black; */
     font-size: 2.5rem;
+}
+
+.ABOUT-US{
+    display: flex;
+    
+    position: relative;
+    height: 98vh;
+    padding: 0 1em 0 1em;
+}
+.wwr{
+    position: absolute;
+    top: 70px;
+    left: 10%;
+    border: 1px solid black;
 }
