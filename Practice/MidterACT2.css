@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+    background-color: white;
+    
+    justify-content: space-evenly;
+    
+}
+
+div{
+    justify-content: center;
+    text-align: center;
+    margin: 2em 0 0 0;
+    padding: 1em 1em 1em 1em;
+    border: 2px solid black;
+    background-color: hsl(0, 0%, 100%);
+}
+
+
+
+.color{
+    color:violet;
+}
+
+
+
+
+
+
+.fontsize{
+    font-size: 2rem;
+}
+
+
+
+
+
+.fontfamily{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
+
+
+.tDecoration{
+    text-decoration: underline;
+}
+
+.fstyle{
+    font-style: italic;
+}
+
+
+.fWeight{
+font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Width, .Height{
+    
+    margin: 0.5em 0.5em 0.5em 0.5em;
+    align-self: center;
+    border: 2px solid green;
+    height: 10em;
+    width: 10em;
+}
+.flex{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
