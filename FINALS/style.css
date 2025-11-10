@@ -5,16 +5,17 @@
 }
 html{
     scroll-behavior: smooth;
+     scroll-padding-top: 0; 
 }
 .HOME{
     position: relative;
-    height: 97vh;
+    height: 101vh;
 }
 /* NAVIGATION */
 nav{
     display: flex;
     height: 100px;
-    background-color: rgba(198, 30, 30, 0.904);
+    background-color: rgba(198, 30, 30, 1);
     justify-content: space-between;
     align-items: center;
     padding: 0 0 0 1em;
@@ -42,13 +43,15 @@ ul a{
 a:hover{
     color: black;
 }
-/* MAIN */
 
 main{
     position: relative;
 }
 .sign{
     color: rgba(198, 30, 30, 0.904);
+    font-weight: 750;
+    font-size: 6.5rem;
+
 }
 .hero{
     position: absolute;
@@ -56,21 +59,92 @@ main{
     left: 12%;
     max-width: 300px;
     max-height: 400px;
-    overflow: hidden;
     /* border: 1px solid black; */
     font-size: 2.5rem;
 }
+.hero h1 {
+    font-weight: light;
+    font-size: 4.5rem;
+}
 
+.contact-us-container{
+    position: absolute;
+    left: 63%;
+    top: 190px;
+    max-width: 300px;
+    max-height: 200px;
+    height: 100px;
+
+}
+.contact-us-container h3{
+    font-size: 1.7rem;
+}
+.contact-us{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    left: 25%;
+    padding: .3em .5em .3em .5em;
+    margin-top: 1em;
+    font-size: 1.3rem;
+    background-color: rgba(198, 30, 30, 0.904);
+    border: 1px solid rgb(137, 5, 5);
+    border-radius: 5px;
+}
+
+/* ABOUT US */
 .ABOUT-US{
-    display: flex;
-    
+    background-color: #3b3b3f;
     position: relative;
     height: 98vh;
     padding: 0 1em 0 1em;
 }
+
+.about-us-text{
+    position: absolute;
+    color: white;
+    top: 40px;
+    left: 44.5%;
+    font-size: 1.9rem;
+}
+
 .wwr{
     position: absolute;
-    top: 70px;
-    left: 10%;
-    border: 1px solid black;
+    color: #d9d9d9;
+    font-weight: bold;
+    top: 150px;
+    left: 5%;
+}
+
+.wwr h1 {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 2.3rem;
+}
+
+.wwr p {
+    margin-top: 7px;
+}
+
+.wwr ul > li {
+    margin-top: 3px;
+    margin-left: 20px;
+}
+
+.wwr ul :first-child {
+    margin-top: 15px;
+}
+
+.last-p{
+    margin-top: 10px;
+}
+
+
+
+/* SERVICES */ 
+
+.SERVICES{
+    height: 98vh;
+    background-color: aqua;
 }
