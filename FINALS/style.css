@@ -52,10 +52,11 @@ main{
     font-weight: 750;
     font-size: 6.5rem;
 
+
 }
 .hero{
     position: absolute;
-    top: 45px;
+    top: 40px;
     left: 12%;
     max-width: 300px;
     max-height: 400px;
@@ -69,7 +70,7 @@ main{
 
 .contact-us-container{
     position: absolute;
-    left: 63%;
+    left: 64%;
     top: 190px;
     max-width: 300px;
     max-height: 200px;
@@ -94,8 +95,9 @@ main{
 }
 
 /* ABOUT US */
+
 .ABOUT-US{
-    background-color: #3b3b3f;
+    /* background-color: #3b3b3f; */
     position: relative;
     height: 98vh;
     padding: 0 1em 0 1em;
@@ -103,28 +105,35 @@ main{
 
 .about-us-text{
     position: absolute;
-    color: white;
-    top: 40px;
-    left: 44.5%;
-    font-size: 1.9rem;
+    color: rgba(198, 30, 30, 0.904);
+    top: 30px;
+    left: 6%;
+    font-size: 2.3rem;
 }
 
 .wwr{
+    max-width: 550px;
     position: absolute;
-    color: #d9d9d9;
+    color: black;
     font-weight: bold;
     top: 150px;
     left: 5%;
 }
 
+.wwr ul {
+    font-size: .9rem;
+}
+
 .wwr h1 {
-    color: white;
-    margin-bottom: 10px;
-    font-size: 2.3rem;
+    color: rgba(198, 30, 30, 1);
+    margin-left: 180px;
+    margin-bottom: 35.5px;
+    font-size: 1.6rem;
 }
 
 .wwr p {
     margin-top: 7px;
+    font-size: 1rem;
 }
 
 .wwr ul > li {
@@ -139,9 +148,22 @@ main{
 .last-p{
     margin-top: 10px;
 }
-
-
-
+.mission{
+    position: absolute;
+    font-weight: bold;
+    top: 147px;
+    left: 50%;
+    max-width: 600px;
+}
+.mission h1 {
+     margin-left: 180px;
+    font-size: 1.6rem;
+    margin-bottom: 35px;
+    color: rgba(198, 30, 30, 1);
+}
+.mission p {
+    line-height: 25.7px;
+}
 /* SERVICES */ 
 
 .SERVICES{
