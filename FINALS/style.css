@@ -57,7 +57,7 @@ main{
 .hero{
     position: absolute;
     top: 40px;
-    left: 12%;
+    left: 13%;
     max-width: 300px;
     max-height: 400px;
     /* border: 1px solid black; */
@@ -89,9 +89,15 @@ main{
     padding: .3em .5em .3em .5em;
     margin-top: 1em;
     font-size: 1.3rem;
-    background-color: rgba(198, 30, 30, 0.904);
-    border: 1px solid rgb(137, 5, 5);
+    background-color: rgba(198, 30, 30, 1);
+    border: 2px solid rgb(137, 5, 5);
     border-radius: 5px;
+    transition: all 150ms;
+}
+
+.contact-us:hover{
+    background-color: white;
+    color: rgba(198, 30, 30, 1);
 }
 
 /* ABOUT US */
@@ -108,15 +114,14 @@ main{
     color: rgba(198, 30, 30, 0.904);
     top: 30px;
     left: 6%;
-    font-size: 2.3rem;
+    font-size: 3rem;
 }
 
 .wwr{
     max-width: 550px;
     position: absolute;
     color: black;
-    font-weight: bold;
-    top: 150px;
+    top: 155px;
     left: 5%;
 }
 
@@ -128,7 +133,7 @@ main{
     color: rgba(198, 30, 30, 1);
     margin-left: 180px;
     margin-bottom: 35.5px;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
 }
 
 .wwr p {
@@ -150,14 +155,13 @@ main{
 }
 .mission{
     position: absolute;
-    font-weight: bold;
-    top: 147px;
+    top: 152px;
     left: 50%;
     max-width: 600px;
 }
 .mission h1 {
      margin-left: 180px;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     margin-bottom: 35px;
     color: rgba(198, 30, 30, 1);
 }
@@ -167,6 +171,254 @@ main{
 /* SERVICES */ 
 
 .SERVICES{
-    height: 98vh;
-    background-color: aqua;
+    display: flex;
+    position: relative;
+    height: 80vh;
+    /* width: 100wv; */
+}
+
+.Tservice {
+    display: flex;
+    left: 38.5%;
+    top: 1.5rem;
+    position: absolute;
+    color: rgba(198, 30, 30, 0.904);
+   
+    font-size: 3rem;   
+}
+
+.main_service{
+    width: 100%;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+.signs img{
+    aspect-ratio: auto 34/34;
+    border-image-repeat: stretch;
+    border: 4px solid black;
+    border-radius: 50px;
+    width: 60px;
+    margin-left: 41px; 
+}
+#signs2 img {
+    margin-left: 50px;
+}
+#signs3 img{
+     margin-left: 41px; 
+}
+#signs4 img{
+    margin-left: 56px;
+}
+.signs span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1.5em;
+    display: block;
+}
+/* WORK */
+
+.WORK{
+    position: relative;
+    height: 150vh;
+   
+}    
+.title_work{
+    position: absolute;
+    color: rgba(198, 30, 30, 1);
+    top: 30px;
+    left: 6%;
+    font-size: 1.5rem;
+}
+
+.titledesc_box{
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    max-width: 80%;
+    line-height: 22px;
+}
+
+.grid-container {
+    position: absolute;
+    top: 230px;
+    left: 80px;
+    width: 1100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 10px; /* spacing */
+}
+.item{
+    transition: 0.4s ease;  
+    position: relative;
+}
+
+.item span{
+    color: white;
+    font-size: 1.3rem;
+    display: flex;
+    justify-self: center;
+    margin-top: 125px;
+    opacity: 0;
+    z-index: 2;
+    position: absolute;   
+    transform: scale(0.8);        
+    transition: 0.4s ease;
+}
+.item img {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    transition: 0.4s ease;  
+}
+
+.item:hover img {
+    filter: blur(2px);             
+    transform: scale(1.1);         
+}
+
+.item:hover span {
+    opacity: 1;                   
+    transform: scale(1);           
+}
+
+/* GET IN TOUCH */
+
+.GETINTOUCH{
+    height: 120vh;
+    position: relative;
+}
+.contact_US{
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+.hero-GIT{
+    margin-bottom: 40px;
+    color: rgba(198, 30, 30, 1);    
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.input-p {
+    font-size: .9rem;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+input{
+    padding-right: 300px;
+    height: 27px;
+    padding-left: 10px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.enter-message{
+    padding-bottom: 200px;
+    line-height: normal;
+}
+
+input::placeholder{
+   color: rgba(198, 30, 30, 1);  
+   font-style: italic;
+}
+
+.enter-message::placeholder{
+    position: absolute;
+    top: 7px;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+input:focus{
+     border-color: rgba(198, 30, 30, 1); 
+     outline: none;  
+    
+}
+.details {
+    position: absolute;
+    left: 690px;
+    top: 220px;
+}
+.details img{
+     height: 50px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.details h3{
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.details a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+.details p {
+    font-weight: 600;
+    
+}
+
+/* FOOTER */
+footer{
+    background-color: rgb(43, 42, 42);
+    color: rgb(227, 225, 225);
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Fcontainer, .socmed{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 300px;
+    height: 200px;
+}
+footer p {
+    font-size: 1rem;
+}
+.socmed div{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10px;
+    gap: 11px;
+}
+.socmed img{
+    border-radius: 10px;
+    height: 40px;
+}
+.line{
+    position: absolute;
+    top: 40px;
+    left: 105px;
+    background-color: rgba(198, 30, 30, 1);
+    width: 157px;
+    height: 10px;
+}
+
+#line1{
+    top: -30px;
+    left: 4px;
+}
+
+#line2{
+    width: 160px;
+    left: 43%;
+    top: 0rem;
+}
+#line3{
+    top: 7px;
+    left: 75px;
 }
