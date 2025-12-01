@@ -299,6 +299,24 @@ main{
     left: 100px;
     top: 80px;
 }
+
+submit_button{
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px;
+    border: 1px solid black;
+     background-color: rgb(63, 62, 62);
+     color: white;
+     margin-left: 76.5%;
+     margin-top: 15px;
+     letter-spacing: 1.2px;
+    transition: all 200ms;
+    cursor: pointer;
+}
+
+.submit_button:hover{
+     background-color: rgb(94, 92, 92);
+}
+
 .hero-GIT{
     margin-bottom: 40px;
     color: rgba(198, 30, 30, 1);    
@@ -421,4 +439,244 @@ footer p {
 #line3{
     top: 7px;
     left: 75px;
+
+}
+
+
+@media (max-width: 414px) and (max-height: 896px) {
+    .HOME{
+    height: 70vh;  
+    }
+    nav ul{
+        opacity: 0;
+    }
+    nav img{
+        height: 40px;
+    }
+    .hero{
+        top: 80px;
+        left: 16%;
+    }
+    .sign{
+        font-size: 65px;
+    }
+    .hero h1{
+        font-size: 55px;
+    }
+   .contact-us-container {
+    left: 4%;
+    top: 350px;
+    }
+    .contact-us-container h3 {
+        opacity: 0;
+    }
+
+    /* ABOUT US */
+    .ABOUT-US{
+        height: 105vh;
+    }
+    .about-us-text{
+        font-size: 2rem;
+        margin-left: 50px;
+    }
+    .wwr{
+        top: 80px;
+        width: 250px;
+        height: 100px;
+        max-width: 250px;
+        left: 25px;
+
+    }
+    .wwr h1{
+        font-size: 1.4rem;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .wwr p{
+        margin-top: 10;
+        font-size: .9rem;
+        margin-left: 10px;
+    }
+    .wwr ul {
+        font-size: .9rem;
+    }
+    /* /////// */
+    .mission{
+        top: 460px;
+        width: 250px;
+        height: 100px;
+        max-width: 250px;
+        left: 25px;
+
+    }
+    .mission h1{
+        font-size: 1.4rem;
+        margin-left: 50px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .mission p{
+        line-height: 20px;
+        margin-top: 10;
+        font-size: .9rem;
+        margin-left: 10px;
+    }
+    /* SERVICES */
+
+    .SERVICES{
+        height: 50vh;
+    }
+    .Tservice{
+        font-size: 2rem;
+        left: 60px;
+    }
+
+    .main_service{
+        flex-wrap: wrap;
+         width: 70%;
+        
+    }
+    .signs{
+        margin-top: -40px;
+    }
+    .signs img{
+        width: 55px;
+        aspect-ratio: auto 17/17;
+        margin-left: 30px; 
+    }   
+    #signs2 img {
+    margin-left: 29px;
+    }
+
+    #signs3 img{
+        
+        margin-left: 30px; 
+    }
+    #signs4 img{
+        margin-left: 35px;
+    }   
+
+    .signs span{
+    font-size: .9rem;
+    font-weight: bold;
+    margin-top: .9em;
+    display: block;
+    }   
+
+    #signs3, #signs4{
+        margin-top: -170px;
+        margin-left: 10px;
+    }
+    /* OUR WORK */
+
+    .WORK{
+        height: 80vh;
+    }
+
+    .title_work{
+        font-size: 1rem;
+        left: 80px;
+    }
+
+    .titledesc_box{
+        left: 17px;
+        font-size: .9rem;
+         width: 68%;
+    }
+
+    .grid-container{
+        grid-template-columns: repeat(2, 1fr);
+        width: 280px;
+        top: 360px;
+        left: 5px;
+    }   
+    .item span{
+        opacity: 0;
+    }
+    .item:hover span{
+        opacity: 0;
+    }
+    .item:hover img {
+        filter: blur(0px);             
+        transform: scale(1);         
+    }
+
+    /* GET IN TOUCH */
+
+    .GETINTOUCH{
+        height: 100vh;
+    }
+    .contact_US{
+        position: absolute;
+        left: 5px;
+        top: 50px;
+        }
+
+    .hero-GIT{
+         font-size: 2rem;
+         margin-left: 25px;
+    }
+
+    .submit_button{
+        margin-left: 58%;
+    }
+    .line{
+        opacity: 0;
+    }
+    .input-p{
+        margin: 6px 0;
+    }
+  
+    input{
+        padding-right: 1px;
+    }
+    .enter-message{
+        padding-right: 80px;
+    }
+
+    .details{
+        top: 650px;
+        left: 20px;
+    }
+    .details img{
+        height: 35px;
+        margin-left: 30px;
+    }
+    .details h3{
+        letter-spacing: 1px;
+        margin-bottom: 20px;
+        font-size: 1rem;
+    }
+    .details a{
+       margin-left: 30px;
+    }
+    .details p{
+        margin-top: 8px;
+        margin-left: 80px;
+    }
+
+    /* FOOTER */
+    footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: start;
+    }
+
+    .Fcontainer, .socmed{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1000px;
+    height: 100px;
+    font-size: .9rem;
+    margin-left: 50px;
+}
+.socmed{
+    margin-left: 60px;
+}
+
+
 }
