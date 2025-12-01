@@ -306,7 +306,7 @@ main{
     border: 1px solid black;
      background-color: rgb(63, 62, 62);
      color: white;
-     margin-left: 76.5%;
+     margin-left: 50%;
      margin-top: 15px;
      letter-spacing: 1.2px;
     transition: all 200ms;
@@ -445,27 +445,38 @@ footer p {
 
 @media (max-width: 414px) and (max-height: 896px) {
     .HOME{
-    height: 70vh;  
+    height: 110vh;  
+    }
+    nav{
+        width: 110%;
+        height: 150px;
     }
     nav ul{
         opacity: 0;
     }
     nav img{
-        height: 40px;
+        height: 70px;
+        margin-left: 10px;
     }
     .hero{
         top: 80px;
         left: 16%;
     }
     .sign{
-        font-size: 65px;
+        font-size: 130px;
     }
     .hero h1{
-        font-size: 55px;
+        font-size: 100px;
     }
    .contact-us-container {
     left: 4%;
-    top: 350px;
+    top: 600px;
+    }
+    .contact-us{
+        padding: 1em 1.3em;
+        width: 150px;
+        font-size: 1.8rem;
+        left: 38%;
     }
     .contact-us-container h3 {
         opacity: 0;
@@ -476,42 +487,41 @@ footer p {
         height: 105vh;
     }
     .about-us-text{
-        font-size: 2rem;
-        margin-left: 50px;
+        font-size: 4rem;
+        margin-left: 0px;
     }
     .wwr{
-        top: 80px;
-        width: 250px;
+        top: 130px;
+        width: 400px;
         height: 100px;
-        max-width: 250px;
-        left: 25px;
+        max-width: 350px;
+        left: 50px;
 
     }
     .wwr h1{
-        font-size: 1.4rem;
+        font-size: 2.3rem;
         margin-left: 50px;
         margin-top: 40px;
         margin-bottom: 10px;
     }
     .wwr p{
         margin-top: 10;
-        font-size: .9rem;
+        font-size: 1rem;
         margin-left: 10px;
     }
     .wwr ul {
-        font-size: .9rem;
+        font-size: 1rem;
     }
     /* /////// */
     .mission{
-        top: 460px;
-        width: 250px;
+        top: 540px;
         height: 100px;
-        max-width: 250px;
-        left: 25px;
+        max-width: 400px;
+        left: 50px;
 
     }
     .mission h1{
-        font-size: 1.4rem;
+        font-size: 2.3rem;
         margin-left: 50px;
         margin-top: 40px;
         margin-bottom: 10px;
@@ -519,31 +529,32 @@ footer p {
     .mission p{
         line-height: 20px;
         margin-top: 10;
-        font-size: .9rem;
+        font-size: 1rem;
         margin-left: 10px;
     }
     /* SERVICES */
 
     .SERVICES{
-        height: 50vh;
+        height: 70vh;
     }
     .Tservice{
-        font-size: 2rem;
-        left: 60px;
+        font-size: 4rem;
+        width: 100%;
+        left: 50px;
     }
 
     .main_service{
         flex-wrap: wrap;
-         width: 70%;
-        
+         width: 90%;
+         margin-left: 40px;
     }
     .signs{
-        margin-top: -40px;
+        margin-top: 0px;
     }
     .signs img{
-        width: 55px;
+        width: 80px;
         aspect-ratio: auto 17/17;
-        margin-left: 30px; 
+        margin-left: 20px; 
     }   
     #signs2 img {
     margin-left: 29px;
@@ -558,7 +569,7 @@ footer p {
     }   
 
     .signs span{
-    font-size: .9rem;
+    font-size: 1.1rem;
     font-weight: bold;
     margin-top: .9em;
     display: block;
@@ -571,23 +582,23 @@ footer p {
     /* OUR WORK */
 
     .WORK{
-        height: 80vh;
+        height: 100vh;
     }
 
     .title_work{
-        font-size: 1rem;
-        left: 80px;
+        font-size: 2rem;
+        left: 75px;
     }
 
     .titledesc_box{
-        left: 17px;
-        font-size: .9rem;
-         width: 68%;
+        top: 110px;
+        left: 50px;
+        max-width: 100%;
     }
 
     .grid-container{
         grid-template-columns: repeat(2, 1fr);
-        width: 280px;
+        width: 440px;
         top: 360px;
         left: 5px;
     }   
@@ -605,21 +616,21 @@ footer p {
     /* GET IN TOUCH */
 
     .GETINTOUCH{
-        height: 100vh;
+        height: 105vh;
     }
     .contact_US{
         position: absolute;
-        left: 5px;
+        left: 30px;
         top: 50px;
         }
 
     .hero-GIT{
-         font-size: 2rem;
-         margin-left: 25px;
+         font-size: 3rem;
+         margin-left: 30px;
     }
 
     .submit_button{
-        margin-left: 58%;
+        margin-left: 71%;
     }
     .line{
         opacity: 0;
@@ -629,38 +640,40 @@ footer p {
     }
   
     input{
-        padding-right: 1px;
+        padding-right: 150px;
     }
     .enter-message{
-        padding-right: 80px;
+        padding-right: 200px;
     }
 
     .details{
-        top: 650px;
-        left: 20px;
+        top: 700px;
+        left: 80px;
     }
     .details img{
-        height: 35px;
-        margin-left: 30px;
+        height: 50px;
+        margin-left: 0px;
     }
     .details h3{
         letter-spacing: 1px;
         margin-bottom: 20px;
         font-size: 1rem;
+        margin-left: 10px;
     }
     .details a{
-       margin-left: 30px;
+       margin-left: 45px;
     }
     .details p{
         margin-top: 8px;
-        margin-left: 80px;
+        margin-left: 100px;
     }
 
     /* FOOTER */
     footer{
         flex-direction: column;
         justify-content: center;
-        align-items: start;
+        align-items: center;
+        width: 110%;
     }
 
     .Fcontainer, .socmed{
@@ -672,12 +685,11 @@ footer p {
     max-width: 1000px;
     height: 100px;
     font-size: .9rem;
-    margin-left: 50px;
-}
-.socmed{
-    margin-left: 60px;
 }
 
 
+
 }
+}
+
 
