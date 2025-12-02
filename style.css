@@ -107,6 +107,8 @@ main{
     position: relative;
     height: 98vh;
     padding: 0 1em 0 1em;
+    background-image: url(./picture/bgser.avif);
+}
 }
 
 .about-us-text{
@@ -139,11 +141,13 @@ main{
 .wwr p {
     margin-top: 7px;
     font-size: 1rem;
+    font-weight: bold;
 }
 
 .wwr ul > li {
     margin-top: 3px;
     margin-left: 20px;
+    font-weight: bold;
 }
 
 .wwr ul :first-child {
@@ -174,6 +178,7 @@ main{
     display: flex;
     position: relative;
     height: 80vh;
+    background-color: rgb(66, 72, 77);
     /* width: 100wv; */
 }
 
@@ -690,6 +695,7 @@ footer p {
 
 
 }
+
 
 
 
