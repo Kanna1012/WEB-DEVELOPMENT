@@ -443,7 +443,7 @@ footer p {
 }
 
 
-@media (max-width: 414px) and (max-height: 896px) {
+@media (max-width: 500px) and (max-height: 900px) {
     .HOME{
     height: 110vh;  
     }
@@ -690,6 +690,7 @@ footer p {
 
 
 }
+
 
 
 
